@@ -1,0 +1,27 @@
+# Sample IOCs for testing the Automated IOC Triage Pipeline
+# These are public/safe IP addresses for demonstration purposes
+# Last Updated: September 2026
+
+# SAFE - Public DNS Services (For testing low-risk results)
+8.8.8.8          # Google DNS (Safe - Low Risk)
+1.1.1.1          # Cloudflare DNS (Safe - Low Risk)
+9.9.9.9          # Quad9 DNS (Safe - Low Risk)
+
+# SAFE - Public Services (For testing)
+4.4.4.4          # Level3 DNS (Safe)
+208.67.222.222   # OpenDNS (Safe)
+
+# KNOWN MALICIOUS - For testing high-risk results
+# These are known malicious IPs used for educational testing
+185.220.101.5    # Known malicious IP (High Risk - Testing)
+185.130.5.253    # Known malicious IP (High Risk - Testing)
+5.188.86.45      # Known malicious IP (Medium-High Risk - Testing)
+
+# PRIVATE IP - For testing validation
+192.168.1.1      # Private IP (Will be rejected - Testing validation)
+10.0.0.1         # Private IP (Will be rejected - Testing validation)
+172.16.0.1       # Private IP (Will be rejected - Testing validation)
+
+# MALICIOUS - Additional known threats for testing
+194.88.105.23    # Known malicious IP (Testing)
+185.165.29.143   # Known malicious IP (Testing)
